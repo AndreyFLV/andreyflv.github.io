@@ -1,2 +1,2 @@
-# andreyflv.github.io
-old site, new hosting for it
+# Arcade
+Some arcade games

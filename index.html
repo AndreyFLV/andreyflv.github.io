@@ -1,0 +1,21 @@
+<html>
+<head>
+	<script src="snake.js"></script>
+    <style>
+    	canvas { border : 1px solid black; }
+    </style>
+</head>
+<body onload="startGame();">
+	<canvas id="canvas" width="300" height="300">
+    	This does not work
+    </canvas>
+    <p id="demo">Testing</p>
+    <p id="test">Another Test</p>
+	<p id="tail">Last one</p>
+    <button onclick="changeVelY(-10)">UP</button>
+    <button onclick="changeVelY(10)">DOWN</button>
+    <button onclick="changeVelX(-10)">LEFT</button>
+    <button onclick="changeVelX(10)">RIGHT</button>
+	<button onclick="startGame()">Restart</button>
+</body>
+</html>
